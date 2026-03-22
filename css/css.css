@@ -137,3 +137,41 @@ body {
    height: 20px;
    cursor: pointer;
 }
+.remenber{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+   :hover{
+      cursor: pointer;
+   }
+}
+.remenber .checkbox {
+   transform: scale(1.7);
+   accent-color: #9E9E9E;
+}
+.remenber  .forgetPassword a{
+   text-decoration: none;
+   color: #000;
+   font-family: 'Times New Roman', Times, serif;
+}
+.continue{
+   background-color: #121010;
+   width: 90%;
+   margin-top: 1.3rem;
+   height: 50px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.continue:hover{
+   cursor: pointer;
+}
+.continue .continue-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
