@@ -2,10 +2,11 @@ body {
    background-image: url('../img/bg-left\ 1.png');
    overflow-x: hidden;
 }
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 .header {
@@ -70,20 +71,22 @@ body {
 
 .form {
    background-color: white;
-   width: 40%;
+   width:39%;
    padding: 40px;
-   border-radius: 30px;
+   border-top-left-radius:  40px;
+   border-top-right-radius:  40px;
+   margin-top: -5rem;
 }
 
 
 .form .titles h2 {
    color: #4a4646;
    font-size: 1rem;
-   
+
 }
 
 .form .titles h3 {
-   font-family: sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 1.5rem;
    margin-top: 15px;
 }
@@ -125,9 +128,11 @@ body {
 .input-wrapper input:focus {
    border-color: #121010;
 }
+
 .password-input {
    position: relative;
 }
+
 .eye-password {
    position: absolute;
    top: 50%;
@@ -137,25 +142,31 @@ body {
    height: 20px;
    cursor: pointer;
 }
-.remenber{
+
+.remenber {
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-top: 20px;
-   :hover{
+
+   :hover {
       cursor: pointer;
    }
 }
+
 .remenber .checkbox {
    transform: scale(1.7);
    accent-color: #9E9E9E;
+   margin-left: 0.4rem;
 }
-.remenber  .forgetPassword a{
+
+.remenber .forgetPassword a {
    text-decoration: none;
    color: #000;
    font-family: 'Times New Roman', Times, serif;
 }
-.continue{
+
+.continue {
    background-color: #121010;
    width: 90%;
    margin-top: 1.3rem;
@@ -164,14 +175,110 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   
+
 }
-.continue:hover{
+
+.continue:hover {
    cursor: pointer;
 }
-.continue .continue-btn{
-    background-color: transparent;
-    border: none;
-    color: white;
-    
+
+.continue .continue-btn {
+   background-color: transparent;
+   border: none;
+   color: white;
+
+}
+
+.spanforline {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 1.5rem;
+   margin-left: -3rem;
+}
+
+.spanforline .line {
+   background-color: rgba(76, 72, 72, 0.5);
+   width: 38%;
+   height: 1px;
+}
+
+.google, .facebook, .apple {
+   border: 1px solid #aaaaaa;
+   display: flex;
+   width: 90%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+   margin-top: 1rem;
+}
+
+.google, .facebook, .apple:hover {
+   cursor: pointer;
+}
+
+.google .continueWithGoogle img {
+   width: 30px;
+   height: 30px;
+   margin-right: -10rem;
+}
+.facebook .continueWithFacebook img {
+   width: 30px;
+   height: 30px;
+   margin-right: -10rem;
+}
+.apple .continueWithApple img {
+   width: 30px;
+   height: 30px;
+   margin-right: -10rem;
+}
+
+
+.google .continueWithGoogle span {
+   margin-left: 15rem;
+   margin-top: 5rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #aaaaaa;
+}
+.facebook .continueWithFacebook span {
+   margin-left: 15rem;
+   margin-top: 5rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #aaaaaa;
+}
+.apple .continueWithApple span {
+   margin-left: 15rem;
+   margin-top: 5rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #aaaaaa;
+}
+.donthaveaccount{
+   margin-top: 2rem;
+   text-align: center;
+   color: #5f5c5c;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.donthaveaccount a{
+   text-decoration: none;
+   color: #000000;
+   text-transform: uppercase;
+}
+.footer .footerContent{
+   width: 90%;
+   margin-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   color: white;
+}
+
+.footer .footerContent span{
+   margin-left: 29rem;
+}
+.footer .footerContent a{
+   text-decoration: none;
+   color: white;
 }
